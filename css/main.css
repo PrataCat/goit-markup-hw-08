@@ -1243,6 +1243,12 @@ body {
   letter-spacing: 0.03em;
 }
 
+@media screen and (max-width: 1599px) {
+  .hide {
+    display: none;
+  }
+}
+
 .work {
   display: flex;
   gap: 30px;
