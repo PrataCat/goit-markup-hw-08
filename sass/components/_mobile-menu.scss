@@ -84,11 +84,14 @@
   }
 }
 
+.mob-menu__bottom {
+  margin-top: 50px;
+}
+
 .mob-menu-contacts {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-top: 302px;
 }
 
 .mob-menu-contacts__mail {
