@@ -1246,7 +1246,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .hide {
     display: none;
   }
