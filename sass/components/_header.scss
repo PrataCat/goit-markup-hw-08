@@ -7,7 +7,7 @@
 
   background-color: var(--primbg-secondbtn-logofooter-address-color);
   border-bottom: 1px solid var(--header-border-color);
-  z-index: 10000;
+  z-index: 100;
 
   @include tablet {
     min-height: 80px;
