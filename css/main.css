@@ -572,6 +572,7 @@ body {
 
 .btn-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
   margin-top: 0;
@@ -1385,14 +1386,17 @@ body {
 .galery {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
+  gap: 30px;
+  justify-content: space-between;
 }
 
 .galery-card {
-  flex-basis: calc(33.3333333333% - 30px);
-  margin-right: 30px;
-  margin-bottom: 30px;
+  width: calc(50% - 30px);
+}
+@media screen and (min-width: 768px) {
+  .galery-card {
+    width: calc(33.3333333333% - 30px);
+  }
 }
 
 .galery__item {
@@ -1454,11 +1458,18 @@ body {
 
 .galery__name {
   margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+@media screen and (min-width: 768px) {
+  .galery__name {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+  }
 }
 
 .galery__text {
